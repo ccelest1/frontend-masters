@@ -1,3 +1,4 @@
+# 08 - 18 - 23
 **TS (TypeScript) - open source, syntactic superset of JavaScript (starts with all javascript and layers additional concepts, maintained by microsoft)**
 
 - complies to readable JS, there are three parts: 1. language, 2. language server, 3. compiler
@@ -47,7 +48,7 @@ TS adds a ft by itself but becomes part of js like decorators, private fields, c
 generics - defining types in terms of other types
 
 1. Question: In design system how do i support consuming apps that do/don’t use ts, do i need to provide type definitions and prototypes?
-	- Even if consumers are using regular js, still get benefits of type info that comes from library written in typescript
+	- Even if consumers are using regular js, still get benefits of type info that comes from library written in typescript, yes it does translate to js in regular browsers with additional info
 
 2. Question: Open Source TS
 	- on typescript website, there are issues marked for new contributors → use lack of experience to speak to what’s/what’s not confusing

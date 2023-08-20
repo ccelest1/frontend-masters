@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        // where to put TS files
+        "outDir": "dist",
+        // level of js support to target
+        // add ignoring of level deprecations
+        // add dom in order to access console, initialize setTimeout
+        "lib": [
+            "ES2015",
+            "ES2015.Core",
+            "DOM"
+        ],
+        "ignoreDeprecations": "5.0",
+        // modified target version to match ES2015
+        // changing this value of 'target' key, changes index.js (code gets more modernized with each recent year)
+        // adding 'declaration' key set to 'true', generates .d.ts which is a file with types
+        "target": "ES2017",
+        "declaration": true,
+        // in order to run with node
+        "module": "CommonJS"
+    },
+    // where to find source code
+    "include": [
+        "src"
+    ]
+}
