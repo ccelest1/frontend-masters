@@ -16,17 +16,20 @@
 
 - Priority of Other
     * [ ] [nodejs](https://frontendmasters.com/learn/node-js/)
+    * [ ] [java](https://frontendmasters.com/courses/java/)
     * [ ] [Go](https://frontendmasters.com/courses/go-basics/)
         - [ ] [2-Go](https://frontendmasters.com/courses/go-for-js-devs/)
-    * [ ] [Rust](https://frontendmasters.com/courses/rust/)
-        - [ ] [Rust for ts](https://frontendmasters.com/courses/rust-ts-devs/)
-    * [ ] [Go, Rust, Ts](https://frontendmasters.com/courses/typescript-go-rust/)
-    * [ ] [Async JS, Rx.js](https://frontendmasters.com/learn/async-rx-js/)
-    * [ ] [rdx courses](https://frontendmasters.com/courses/?q=redux)
-    * [ ] [webpack](https://frontendmasters.com/learn/webpack/)
 
 - Cement Fundamentals
     * [ ] [web auth](https://frontendmasters.com/courses/web-auth-apis/)
     * [ ] [web storage apis](https://frontendmasters.com/courses/web-storage-apis/)
     - [ ] [mongo](https://frontendmasters.com/courses/mongodb/)
     - [ ] [DBS](https://frontendmasters.com/courses/databases/)
+
+- Other Pt 2
+    * [ ] [Rust](https://frontendmasters.com/courses/rust/)
+        - [ ] [Rust for ts](https://frontendmasters.com/courses/rust-ts-devs/)
+    * [ ] [Go, Rust, Ts](https://frontendmasters.com/courses/typescript-go-rust/)
+    * [ ] [Async JS, Rx.js](https://frontendmasters.com/learn/async-rx-js/)
+    * [ ] [rdx courses](https://frontendmasters.com/courses/?q=redux)
+    * [ ] [webpack](https://frontendmasters.com/learn/webpack/)

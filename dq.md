@@ -5,7 +5,10 @@
     - Learning about TS combined with a popular fe framework like react
         * Questions to answer
             - Why are static types useful?
+                * static types are useful because we are able to leave greater intent on a given coded file in order to mitigate ambiguity, as a result can turn errors in building from runtime to compile time (arguments are required to be followed)
             - What kind of problems do static types help catch with coding ?
+                * aid with optimizing development (compile -> runtime)
+                * detects values that may be potentially absent, breakage around contracts/constraints, non-finished refactoring
 - After learning, practice by building a SPA that renders
     - understand ts compiler, how jsx gets converted to js, write code with typescript in react
 
@@ -37,11 +40,12 @@
 # 08 - 11 -2023
 - Need to be comfortable in regards to fullstack, setting up apps quickly
     - Theoretical
-        * spin up sqlite server with a goo understanding of chosen be (fastapi) -> clients are connected to each other via http -> define api, sever, client communicate
+        * spin up sqlite server with a good understanding of chosen be (fastapi) -> clients are connected to each other via http -> define api, sever, client communicate
     - Docker
         - need to verify these details
-            * containers are instance of image, images contain libraries, os(template)
-            * create several containers -> run server declared by dockerfile -> images used to run several various containers
+            * containers are instances of images, images contain app libraries, os template
+            * create several containers from same image -> each container runs server declared by dockerfile
+            * images are used as blueprints to create and run several containers
 
 - Understand difference between node.js v browser runtime
     - import 'fs'

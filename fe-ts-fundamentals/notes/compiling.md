@@ -49,8 +49,8 @@
         1. generates a dist/ with index.js
             - has polyfills, async, await, promises
         2. generate a node_modules
-    - index.d.t.s (generated via `declaration:true` in [ts-config](../project/tsconfig.json))
+    - [index.d.t.s](../project/index.d.ts) (generated via `declaration:true` in [ts-config](../project/tsconfig.json))
         * contains types stripped from source code
-        * complier creates js file that runs and ts file with types describing constraints  = typescript
+        * complier creates [js file](../project/dist/index.js) that runs and [ts file](../project/dist/index.d.ts) with types describing constraints  = typescript
     - nodejs predates standardized js modules
         * running node with index.js, results in error with export
