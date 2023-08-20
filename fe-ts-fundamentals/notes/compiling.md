@@ -43,8 +43,7 @@
         - use of async, await
     * [project folder](../project/src/)
     - __GETTING IT TO ACTUALLY RUN__
-        1. cd /src -> `npm install -g yarn`
-        2. `yarn add typescript --dev` -> `npm install -g typescript` -> `yarn dev`
+        1. cd /src -> `npm install -g yarn` -> `yarn add typescript --dev` -> `npm install -g typescript` -> `yarn dev`
     - __After running above commands__
         1. generates a dist/ with index.js
             - has polyfills, async, await, promises
