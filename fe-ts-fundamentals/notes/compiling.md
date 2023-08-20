@@ -41,7 +41,7 @@
     * makes changes to 'target' in tsconfig.json obvious
         - use of built in Promise constructor
         - use of async, await
-    * [project folder](../project/src/index.ts)
+    * [project folder](../project/src/)
     - __GETTING IT TO ACTUALLY RUN__
         1. cd /src -> `npm install -g yarn`
         2. `yarn add typescript --dev` -> `npm install -g typescript` -> `yarn dev`
@@ -49,7 +49,7 @@
         1. generates a dist/ with index.js
             - has polyfills, async, await, promises
         2. generate a node_modules
-    - [index.d.t.s](../project/index.d.ts) (generated via `declaration:true` in [ts-config](../project/tsconfig.json))
+    - [index.d.t.s](../project/dist/index.d.ts) (generated via `declaration:true` in [ts-config](../project/tsconfig.json))
         * contains types stripped from source code
         * complier creates [js file](../project/dist/index.js) that runs and [ts file](../project/dist/index.d.ts) with types describing constraints  = typescript
     - nodejs predates standardized js modules

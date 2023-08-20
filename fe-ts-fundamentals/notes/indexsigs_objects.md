@@ -13,6 +13,13 @@
     }
     ```
 - we are required to use index signature
-```ts
-
-```
+*   ```ts
+        const phones: {
+            [k: string]:{
+                country: string
+                area: string
+                number: string
+            }
+        } = {}
+        phones.fax
+    ```
