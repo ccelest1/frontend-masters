@@ -15,7 +15,7 @@
 - vite
     - code compressed -> sent to client via bundler
     - frontend frameworks: react, angular, svelte, vue.js
-    - js bundlers: webpack, beble, vite
+    - js bundlers: webpack, bable, vite
         * Responsible for transpilation, minification, bundling
 
 - npm [ library, registry, and cli tool for js software packages ]

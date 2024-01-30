@@ -60,7 +60,7 @@ function add(a: number, b:number): number {
     ```
 
 ## excess properties
-```
+```ts
 printCar({
     make: 'Tesla',
     model: 'Model 3',

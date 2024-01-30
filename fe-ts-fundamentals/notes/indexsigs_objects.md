@@ -1,6 +1,6 @@
 # 08 - 20 - 23
 ## index sigs, objects qa
-- sometimes may need to represent types fo dicts where values are of a strict type that are retrieved by keys
+- sometimes may need to represent types for dicts where values are of a strict type that are retrieved by keys
 * ```js
     const phones = {
         home: {

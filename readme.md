@@ -15,7 +15,10 @@
         * [ ] [enterprise architecture](https://frontendmasters.com/courses/enterprise-patterns/)
 
 - Priority of Other
+    - [ ] [Master SEO](https://frontendmasters.com/teachers/mike-north/#:~:text=Modern%20Search%20Engine%20Optimization%20(SEO))
+    - [ ] [DBs](https://frontendmasters.com/courses/databases/)
     * [ ] [nodejs](https://frontendmasters.com/learn/node-js/)
+    - [ ] [mongo](https://frontendmasters.com/courses/mongodb/)
     * [ ] [java](https://frontendmasters.com/courses/java/)
     * [ ] [Go](https://frontendmasters.com/courses/go-basics/)
         - [ ] [2-Go](https://frontendmasters.com/courses/go-for-js-devs/)
@@ -23,8 +26,6 @@
 - Cement Fundamentals
     * [ ] [web auth](https://frontendmasters.com/courses/web-auth-apis/)
     * [ ] [web storage apis](https://frontendmasters.com/courses/web-storage-apis/)
-    - [ ] [mongo](https://frontendmasters.com/courses/mongodb/)
-    - [ ] [DBS](https://frontendmasters.com/courses/databases/)
 
 - Other Pt 2
     * [ ] [Rust](https://frontendmasters.com/courses/rust/)
