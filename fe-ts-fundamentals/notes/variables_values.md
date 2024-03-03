@@ -4,7 +4,7 @@
     * but can't do
     ```js
     let age = 6
-    age = 'not a number
+    age = 'not a number'
     // results in an error `type string is not assignable to type number`
     ```
     * in ts vars are born with types

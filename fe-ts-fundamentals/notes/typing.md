@@ -47,14 +47,16 @@ function add(a: number, b:number): number {
         make: string
         model: string
         year: number
-        chargeV?: number // number | undefined, means | is `or` for types
+        chargeV?: number
+        // number | undefined, means | is `or` for types
     }){
         let str = `${car.make} ${car.model}, ${car.year}`
         car.chargeV
         // typeGuard
         // combine predicates(check with true or false), with control flow tool (if or case:) creates branches of code if undefined or defined
         if (typeof car.chargeV !== 'undefined')
-            str+= `// ${c.chargeV} volts`
+            str+= `${c.chargeV}`
+        // volts
         console.log(str)
     }
     ```

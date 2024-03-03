@@ -16,10 +16,12 @@
 *   ```ts
         const phones: {
             [k: string]:{
-                country: string
+                country: sstring
                 area: string
                 number: string
-            }
+            } | undefined
         } = {}
         phones.fax
+
+    // ts discourages adding properties that are unknown to instantiated object class
     ```
