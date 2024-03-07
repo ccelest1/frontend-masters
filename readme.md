@@ -15,11 +15,12 @@
         * [ ] [enterprise architecture](https://frontendmasters.com/courses/enterprise-patterns/)
 
 - Priority of Other
-    - [ ] [Master SEO](https://frontendmasters.com/teachers/mike-north/#:~:text=Modern%20Search%20Engine%20Optimization%20(SEO))
-    - [ ] [DBs](https://frontendmasters.com/courses/databases/)
+    * [ ] [java](https://frontendmasters.com/courses/java/)
     * [ ] [nodejs](https://frontendmasters.com/learn/node-js/)
     - [ ] [mongo](https://frontendmasters.com/courses/mongodb/)
-    * [ ] [java](https://frontendmasters.com/courses/java/)
+
+    - [ ] [Master SEO](https://frontendmasters.com/teachers/mike-north/#:~:text=Modern%20Search%20Engine%20Optimization%20(SEO))
+    - [ ] [DBs](https://frontendmasters.com/courses/databases/)
     * [ ] [Go](https://frontendmasters.com/courses/go-basics/)
         - [ ] [2-Go](https://frontendmasters.com/courses/go-for-js-devs/)
 
