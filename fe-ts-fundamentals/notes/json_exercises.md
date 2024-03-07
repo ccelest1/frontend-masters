@@ -4,9 +4,9 @@
     * note: isJSON(new BigInt(143)) = isJSON(BigInt(143))
 
 ```ts
-type Primitive = string | number | boolean | null
+type JSONPrimitive = string | number | boolean | null
 
 type JSONObject = { [k:string]: JSONValue }
 type JSONArray = JSONValue[]
-type JSONValue = Primitive | JSONObject | JSONArray
+type JSONValue = JSONPrimitive | JSONObject | JSONArray
 ```
