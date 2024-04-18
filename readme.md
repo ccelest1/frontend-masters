@@ -4,7 +4,8 @@
 ### 08-11-2023
 - Learn about typescript prior to delving into open source projects
     - frontend masters courses can provide me with fundamentals -> advanced practice
-        * [ ] [fundamentals](https://frontendmasters.com/courses/typescript-v3/compiling-a-typescript-program/)
+        * [x] [fundamentals](https://frontendmasters.com/courses/typescript-v3/)
+            * [ ] [newer version](https://frontendmasters.com/courses/typescript-v3/compiling-a-typescript-program/)
         * [ ] [intermediate](https://frontendmasters.com/courses/intermediate-typescript/)
         * [ ] [ts practice](https://frontendmasters.com/courses/typescript-practice/)
         * [ ] [make ts stick](https://frontendmasters.com/courses/typescript-practice/)

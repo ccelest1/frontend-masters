@@ -1,4 +1,4 @@
-# 08 - 11 -2023
+# 08 - 11 - 2023
 ## Actionable Steps
 - [Learn Ts](./readme.md)
     - Understand concept of typing
@@ -42,10 +42,9 @@
     - Theoretical
         * spin up sqlite server with a good understanding of chosen be (fastapi) -> clients are connected to each other via http -> define api, sever, client communicate
     - Docker
-        - need to verify these details
-            * containers are instances of images, images contain app libraries, os template
-            * create several containers from same image -> each container runs server declared by dockerfile
-            * images are used as blueprints to create and run several containers
+        * containers are instances of images, images contain app libraries, os template
+        * create several containers from same image -> each container runs server declared by dockerfile
+        * images are used as blueprints to create and run several containers
 
 - Understand difference between node.js v browser runtime
     - import 'fs'
@@ -55,7 +54,7 @@
 - NodeJS [ custom js runtime ]
     * fxns to call in browser vs node fxns (backend js runtime)
     * Interpreter
-        - cpu doesnt read js (js gets converted into machine language/binary)
+        - cpu doesn't read js (js gets converted into machine language/binary)
 
 ## Career
 - Begin career at startups

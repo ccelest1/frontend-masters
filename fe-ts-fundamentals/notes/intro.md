@@ -4,7 +4,7 @@
 - complies to readable JS, there are three parts: 1. language, 2. language server, 3. compiler
 - ts = fancy linter with an ever increasing popularity
 
-add types to javascript, ts compiles out to readable javascript, language server - feeds editor like vs code that powers autocompletes, complier performs analysis on codebase and make sure everything is lined up
+add types to javascript, ts compiles out to readable javascript, language server - feeds editor like vs code that power autocomplete, complier performs analysis on codebase and make sure everything is lined up
 
 in terms of ubiquitous tooling, typescript is becoming an increased addition
 
