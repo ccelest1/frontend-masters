@@ -1,4 +1,5 @@
 # 04 - 17 - 24
+# REFER TO THIS [ENTERPRISE JS](https://www.typescript-training.com/course/enterprise-v2/02-ts-library-zero-to-one/)
 ## gitignore + package.json
 - Making a dir called `chat-stdlib`
     * going to be eventually imported into chat app and contains code, tests, linting
@@ -35,9 +36,46 @@
     - Function : take instance of error class -> string representation
     - Class: access to promise object (resolve, reject)
 
+- then for `dir/package.json`, I performed (1) `yarn add -D eslint`, (2) `yarn add -D @types/eslint@8.0.0`, (3) `yarn` [ install linter and linting types ]
+
+* had to change package.json @ `devDependencies`, set `eslint` and `@types/eslint` to `8.0.0` -> (run) `yarn` -> `yarn eslint --init`
+    - for linter config, `yarn eslint --init` | `npm init @eslint/config`
+        1. `check syntax and find problems` -> avoid error fatigue, provide good enough constraints
+        2. using `js modules (import/export)` as commonJS is build output
+        3. code runs in both browser and node (check both)
+        4. config file format: js
+
+* npm doesn't like `"http-error":"workspace:*"` in `chat/package.json` as its yarn based
+
 ## configure eslint
+- in `.eslintrc.js`, changed content of module.exports[extends] to include
+    ```js
+        'plugin:@typescript-eslint/recommended',
+        // include rules with types to perform linting
+        'plugin:@typescript-eslint/recommended-requiring-type-checking'
+    ```
+* also confirmed, that in parserOptions, `rootDir` is set to `__dirname`, and `project` set to `true`
+* overrides checks in order as they appear, included a new override with files including new dir `tests`, env with node, jest set to true
+
+- wasn't getting errors using `yarn lint` -> had to mod 'lint' rule to `yarn eslint src` v `"lint": "yarn eslint src --ext=.js --ext=.ts"`
+    * silenced blockers
+- Going to just look on, had to restart ESLint Extension after installing
+
 ## setup jest testing
+- installing jest and babel, want to run .ts files on fly -> babel transpile to js, jest run tests
+
+- install jest and babel, `yarn add -D jest @types/jest @babel/core @babel/preset-env @babel/preset-typescript`
+- added test dir containing `index.tests.ts`
+- in `tsconfig.json` changed `composite` to be true, option allows for prebuilt types and info that apply to specified parts of project
+- in tests dir create a [tsconfig.json](./typescript-courses/packages/chat-stdlib/tsconfig.json) and new [.babelrc file](./typescript-courses/packages/chat-stdlib)
+    * had to change import statement for `index.test.ts` and fixed spacing for `index.ts` for stringifyErrorValue -> (run) yarn build -> yarn test
+- use babel, transform ts -> js once seamless (jest -> babe)
+
 ## setup test + watch script
+- adding build script prior to build step in package.json -> `'test':'yarn build && yarn jest'`
+- test watching
+    * changed `package.json` to include watch commands via `--watch` flag and installed concurrently (`yarn add -D concurrently`) to have watch commands be running simultaneously `"watch": "yarn concurrently --names 'TS,JEST' -c 'red,blue' 'yarn watch-build' 'yarn watch-tests' ",`
+
 ## api reporting
 ## api documentation
 ## tsconfig strictness
