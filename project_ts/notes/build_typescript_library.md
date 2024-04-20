@@ -77,5 +77,12 @@
     * changed `package.json` to include watch commands via `--watch` flag and installed concurrently (`yarn add -D concurrently`) to have watch commands be running simultaneously `"watch": "yarn concurrently --names 'TS,JEST' -c 'red,blue' 'yarn watch-build' 'yarn watch-tests' ",`
 
 ## api reporting
+- using an api-extractor via `yarn add -D @microsoft/api-extractor @microsoft/api-documenter` -> create default config using api `yarn api-extractor init`
+    * allow for initialization of public available types
+
+- in api-extractor.json, uncomment unTrimmedFilePath, etc. [api extractor](https://www.typescript-training.com/course/enterprise-v2/02-ts-library-zero-to-one/#babelrc), publicTrimmedFilePath
+
+- new dir `etc` ->
+
 ## api documentation
 ## tsconfig strictness
