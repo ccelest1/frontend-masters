@@ -1,3 +1,5 @@
+import NewToDoForm from "@/components/NewToDoForm"
+
 const getData = async () => {
   // can talk directly to db here
   await new Promise((res) => setTimeout(() => res(0), 2000))
@@ -10,13 +12,14 @@ const Home = async () => {
   console.log(typeof data.data)
   return data && (
     <div>
-      {data.data.map(data => (
+      <NewToDoForm />
+      {/* {data.data.map(data => (
         <div key={data.toString()}>
           {data}
         </div>
-      ))}
+      ))} */}
     </div>
   )
-}
+}jj
 
 export default Home

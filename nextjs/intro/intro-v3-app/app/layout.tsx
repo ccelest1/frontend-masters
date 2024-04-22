@@ -23,8 +23,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <nav>
-            <ul className='flex items-center'></ul>
+          <nav className='py-4 px-4'>
+            <ul className='flex items-align'></ul>
             {links.map(link => (
               <li key={link.href.toString()}>
                 <Link href={link.href}>{link.label}</Link>
