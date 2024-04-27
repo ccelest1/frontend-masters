@@ -13,13 +13,8 @@ const Home = async () => {
   return data && (
     <div>
       <NewToDoForm />
-      {/* {data.data.map(data => (
-        <div key={data.toString()}>
-          {data}
-        </div>
-      ))} */}
     </div>
   )
-}jj
+}
 
 export default Home

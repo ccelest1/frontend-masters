@@ -3,7 +3,8 @@
 import { useState } from 'react'
 
 // client component
-const NewToDoForm = () => {
+const NewToDoForm = ({ onChange }) => {
+    console.log(window.localStorage)
     const [state, updateState] = useState('')
 
     return (

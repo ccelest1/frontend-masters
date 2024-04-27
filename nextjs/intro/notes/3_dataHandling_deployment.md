@@ -15,8 +15,15 @@
     2. `npm i @prisma/client@latest`
     3. use sqlite, host off a file
     4. `npx prisma init`
+    5. told to delete -> `npx prisma init --datasource-provider sqlite`
+- write schema in provided `schema.prisma`
+    6. `npx prisma migrate dev --name init` via `npx prisma migrate --help`
+
+- this workflow creates a .db file along with its corresponding migrations -> created Todo model in schema.prisma i.e gens a sql db on the fly
 
 ## Fetch w/ Prisma
+- created a /utils that has db.ts that now has an sdk instance
+
 ## Form Handling w/ Server Actions
 ## Loading + Error
 ## API Routes
